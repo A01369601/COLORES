@@ -1,0 +1,70 @@
+<html>
+    <head>
+    	<meta charset="utf-8">
+    	<title>Colores</title>
+    	<link href="maxresdefault.jpg"rel="shortcut icon"type="image/png">
+    	<link href="Estilos_C.css"rel="stylesheet"type="text/css">
+    	<script src="Colores.js" type="text/JavaScript"></script>
+    </head>
+     <style>
+        body {
+            -webkit-animation: colorchange 60s infinite; 
+            animation: colorchange 60s infinite;
+        }
+        @-webkit-keyframes colorchange {
+             0%  {background: #FFBF00;}
+            25%  {background: #ff5e00;}
+            50%  {background: #0e30f0;}
+            75%  {background: #C0C0C0;}
+            100% {background: #000000;}
+        }
+        @keyframes colorchange {
+             0%  {background: #ffffff;}
+            25%  {background: #ff5e00;}
+            50%  {background: #0e30f0;}
+            75%  {background: #5fff02;}
+            100% {background: #000000;}
+        }   
+        </style>
+    <body><center>
+    	<p class="title">Cambiar colores de la frase</p><br><br>
+    	<br>
+    	<table border="5" width="100%" background="maxresdefault.jpg" >
+    	<form name="colores">
+    		<tr align="center">
+    			<td><p><b class="texto">Color de Fondo</b></p></td>
+    			<td><p><b class="texto">Color de Texto</b></p></td>
+    			<td><p><b class="texto">Resultado</b></p></td>
+    		</tr>
+    		<tr align="center">
+    		    <td align="center">
+                    <select name="Fondo" class="campo">
+                        <option value="1">Naranja</option>
+                        <option value="2">Negro</option>
+                        <option value="3">Verde</option>
+                        <option value="4">Azul</option>
+                        <option value="5">Blanco</option>
+                    </select>
+                </td>
+                <td align="center">
+                    <select name="Texto" class="campo">
+                        <option value="1">Negro</option>
+                        <option value="2">Blanco</option>
+                        <option value="3">Verde</option>
+                        <option value="4">Rojo</option>
+                        <option value="5">Naranja</option>
+    		    </td>
+    		    <td>
+    		    	<textarea name="res" class="campo" cols="10" rows="10">Este es el resultado de tu selección
+    		    	</textarea>
+    		    </td>
+    		</tr>
+    		<tr align="center">
+    			<td colspan="3">
+    				<input name="b_ejecuta" type="button" class="boton" value="Ejecutar" onclick="ejecutar(10)">
+    			</td>
+    		</tr>
+    	</form>
+    </table>
+</center></body>
+</html>

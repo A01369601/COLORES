@@ -1,0 +1,60 @@
+.texto{
+	font-size:18pt;
+	font-weight: bold;
+	background:url() top center no-repeat;
+	-webkit-text-fill-color:white;
+    -webkit-text-stroke: 1pt black;
+}
+
+.boton{
+	font-size:30pt;
+	font-weight: bold;
+	color: white;
+	background: #ec5e0c;
+	border-radius: 7px;	
+}
+
+.title{
+ background:url(../images/h1-wood.png) top center no-repeat;
+ background-size:contain;
+ height:61px;
+ margin:-30px auto 0px;
+ font-family: 'curse_casual_jveregular';
+ text-transform:uppercase;
+ color:#fff7e0;
+ font-size:38px;
+ font-weight:100;
+ text-align:center;
+ letter-spacing:0.05em;
+ padding-top:17px;
+ text-shadow: 0 1px 0 #744109 , 0 2px 0 #744109 , 0 3px 0 #744109, 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902);
+ position:relative;
+ z-index:99;
+}
+
+.texto_2{
+ font-size:20pt;
+ font-weight: bold;
+ font-style: oblique;
+ color:black;
+}
+
+.campo{
+ font-size:12pt;
+ font-weight: bold;
+ color: white;
+ background: #ec5e0c;
+ text-align:center;
+ border-radius: 7px;
+}
+
+.bg{
+ width: 15px;
+ height: 250px;
+ position: absolute;
+ top:100px;
+ left: 0;
+ right: 30px;
+ bottom: 0;
+ background: linear-gradient(180deg, red 0%, #ff0 17%, lime 33%, cyan 50%, blue 66%, #f0f 83%, red 100%);
+}

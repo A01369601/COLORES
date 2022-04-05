@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Colores</title>
+		<link href="Estilos_C.css" rel="stylesheet" type="text/css">
+		<script src="Prueba.js" type="text/JavaScript"></script>
+	</head>
+    <style>
+        body {
+            -webkit-animation: colorchange 60s infinite; 
+            animation: colorchange 60s infinite;
+        }
+        @-webkit-keyframes colorchange {
+             0%  {background: #ffffff;}
+            25%  {background: #ff5e00;}
+            50%  {background: #0e30f0;}
+            75%  {background: #5fff02;}
+            100% {background: #000000;}
+        }
+        @keyframes colorchange {
+             0%  {background: #ffffff;}
+            25%  {background: #ff5e00;}
+            50%  {background: #0e30f0;}
+            75%  {background: #5fff02;}
+            100% {background: #000000;}
+        }   
+        </style>
+	<body><center>
+		 <p  class="texto_2"> Selecciona un color para tu texto </p>
+            <label class="title" for="muestrario">Color:</label>
+            <input type="color" value="#ff0000" id="muestrario">
+                 <p class="texto_2">En la parte superior podras ver una muestra del resultada final.<br><br>
+                   A medida que haces cambios en el selector, el color del primer párrafo cambia,
+                   a manera de previsualización.<br><br>
+                   Cuando eligas el color final el sistema lo detectara y cambiara todos los párrafos al color elegido.
+         </p>          
+	</center></body>
+</html>
